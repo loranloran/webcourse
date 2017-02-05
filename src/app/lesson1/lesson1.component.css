@@ -1,0 +1,19 @@
+body{
+  background-color:yellow;
+  font-family: 'Calligraffitti', cursive;
+}
+li{
+  color:blue;
+  background-color:cyan;
+  margin-top:10px;
+  border-bottom: solid #ff0000 ;
+  width: 200px;
+  border-radius: 30px
+
+}
+#css1{
+  font-size:30px;
+}
+li:hover {
+  background-color: grey;
+}

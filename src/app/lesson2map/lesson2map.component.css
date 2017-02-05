@@ -1,0 +1,9 @@
+html, body { height: 100% }
+
+#coordinates{
+  background-color: grey;
+
+}
+
+#mapid { height: 100% }
+

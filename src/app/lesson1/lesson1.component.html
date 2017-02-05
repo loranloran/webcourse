@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+  <title>lesson1 </title>
+  <link href="https://fonts.googleapis.com/css?family=Calligraffitti" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+<img src="http://elbitsystems.com/wp-content/themes/anova/assets/images/logo.png">
+<button (click)="goToMap()" >map component</button>
+<h1 id="dynamic_title" style="color:red;">{{headerText}}</h1>
+<input id="input_list_item" type="text" name="firstname" placeholder="enter list item text" [(ngModel)]="textValue" />
+<button (click)="addNewItem()" >add new item</button>
+<h3>your input text is: {{textValue}}</h3>
+
+
+<!--works-->
+<ul>
+  <li *ngFor="let tododo of lista"  (click)="liclick(tododo)" >{{tododo}}</li>
+</ul>
+
+
+<!--<script src="javascripts/lesson1.js"></script>-->
+</body>
+<hr/>
+<a href="http://www.facebook.com">facebook</a>
+<p>&copy; 2015 RapidTables.com
+</p>
+<i class="fa fa-github" aria-hidden="true"></i>
+</html>

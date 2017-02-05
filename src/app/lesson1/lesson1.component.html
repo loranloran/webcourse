@@ -21,7 +21,7 @@
 
 <!--works-->
 <ul>
-  <li *ngFor="let tododo of lista"  (click)="liclick(tododo)" >{{tododo}}</li>
+  <li *ngFor="let list of lista; let i=index "  (click)="liclick(list,i)" >{{list}}</li>
 </ul>
 
 
